@@ -1,4 +1,4 @@
-package sample;
+package lesson1_7;
 
 public class DateTypeChange {
 	public static void main(String[] args) {

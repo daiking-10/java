@@ -12,7 +12,7 @@
 						・
 					100は偶数です
 */
-package sample;
+package lesson1_12;
 
 public class practice3 {
 

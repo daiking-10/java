@@ -11,7 +11,7 @@
 		③その他の場合は、「（変数）月は31日です。」
 			出力例：1月は31日です。
 */
-package sample;
+package lesson1_11;
 
 public class sample {
 

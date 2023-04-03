@@ -1,4 +1,4 @@
-package sample;
+package lesson1_3;
 
 public class selfIntroduction {
 

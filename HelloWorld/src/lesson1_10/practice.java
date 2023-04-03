@@ -11,7 +11,7 @@
 					・
 					21
 					*/
-package sample;
+package lesson1_10;
 
 public class practice {
 

@@ -1,4 +1,4 @@
-package sample;
+package lesson1_8;
 
 public class Bool {
 	public static void main(String[] args) {

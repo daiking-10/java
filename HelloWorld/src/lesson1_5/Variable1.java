@@ -1,4 +1,4 @@
-package sample;
+package lesson1_5;
 
 public class Variable1 {
 	public static void main(String[] args) {
