@@ -20,19 +20,29 @@
 //	           j
 
 package lesson1_14;
+
 public class practice {
 
 	public static void main(String[] args) {
+		System.out.println("問1");
 		// TODO 自動生成されたメソッド・スタブ
-		String str3 = "abcdefghij";
-        char[] c3 = str3.toCharArray();
-        for(char c4 : c3) {
-            System.out.println(c4);
-        if (str3 ) {
-	  	System.out.println("for文を抜けます");
-	    break;
-	    }
-      }
- }
+		String[] str = {"a","b","c","d","e","f","g","h","i","j"};
+		 for (int i= 0 ; i < str.length; i++) {
+			 if(i > 3) {
+				 break;
+			 }System.out.println(str[i]);
+		     }
+		 System.out.println("問2");
+		 for (int i= 0 ; i < str.length; i++){
+
+			  if (i == 8){
+			    continue;
+			  }
+			  System.out.println(str[i]);
+        
+		 }
+	}
 }
+
+
 	
