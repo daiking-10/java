@@ -16,7 +16,9 @@ package lesson1_10;
 public class practice {
 
 	public static void main(String[] args) {
-		for(int i = 3; i < 22; i+=2 ) {
-			System.out.println(i);
+		int i = 1;
+		for(; i < 20;) {
+			 i+=2;
+			 System.out.println(i);
 			}
 	}}
