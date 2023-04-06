@@ -34,32 +34,41 @@ public class Curriculum_New_1_18{
 		}
 	// Q6：引数にQ5で作成したメソッドの返り値を受け取り、受け取った配列の要素の平均値をコンソールに出力するメソッドを作成してください。
 	// ※小数点以下も表示されるようにしてください。
-	public static void heikinti(int[] nums) {
+	public static double heikinti(int[] nums) {
 		double average = Arrays.stream(nums).average().getAsDouble();
-		System.out.println(average);
+	System.out.println(average);
+	return average;
 	}
 	// Q7：引数にQ6で作成したメソッドの返り値を受け取り、受け取った値が50以上ならばtrueそれ以外はfalseを返しコンソールに出力してください
-	public static void hantei(int[] nums) {
-		for (int i = 0; i < nums.length; i++) {
-			if(nums[i] >= 50) {
+	public static void hantei(double y) {
+			if(y >= 50) {
 				System.out.println("true");
 			}else {
 				System.out.println("false");
-			}
         }
 	}
 	public static void main(String[] args) {
     // 作成したメソッドをここで呼び出してください
-	int [] data = {1,2,3,4,5,6};
-	int[] nums;
 	hello();
+	
 	kakezan(4,5);
+	
+	int [] data = {1,2,3,4,5,6};
 	hairetu(data);
+	
 	kakezan(2.1,3.4);
+	
+	int[] nums;
 	nums = number(5);
 	for(int i: nums) {
 		System.out.println(i);
 	}
-	heikinti(nums);
-	hantei(nums);
+	
+	double average;
+	average = heikinti(nums);
+	
+	hantei(average);
+	
+
+	
 }}
